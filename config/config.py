@@ -1,3 +1,6 @@
+
+
+
 weatherappID='d057499719f262e76f0c912314e06e6e'
 geocodeApiID='AIzaSyAU_ErOREcU8JI5H9xETABf0P8QzqjXMHw'
 weatherURL='https://api.darksky.net/forecast/'
