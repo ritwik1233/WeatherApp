@@ -53,5 +53,7 @@ A Python Desktop Application where one can view daily and weekly weather reports
   * Open config.py and paste the api key in mongodbURL.
 
 ### Run Instructions
-* Open the project in a python IDE
+#### Run on Pycharm
+* Open the project in python IDE
+* Install all the python dependencies
 * Run the MainPage.py in MainDriver python package .
