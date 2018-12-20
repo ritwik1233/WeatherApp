@@ -56,5 +56,32 @@ A Python Desktop Application where one can view daily and weekly weather reports
 #### Run on Pycharm
 * Download and install [Pycharm](https://www.jetbrains.com/pycharm/)
 * Open the project in pycharm
-* Install all the project dependencies
+* Install all the project dependencies.Below is the list of dependencies
+    ```
+    Package         Version         Latest Version
+    
+    PyGObject	    3.30.4	        3.30.4
+    Schemer	        0.2.11	        0.2.11
+    altgraph	    0.16.1	        0.16.1
+    certifi	        2018.11.29	    2018.11.29
+    chardet	        3.0.4	        3.0.4
+    cycler	        0.10.0	        0.10.0
+    future	        0.17.1	        0.17.1
+    idna	        2.8	            2.8
+    inflection	    0.3.1	        0.3.1
+    kiwisolver	    1.0.1	        1.0.1
+    macholib	    1.11	        1.11
+    matplotlib	    3.0.2	        3.0.2
+    numpy	        1.15.4	        1.15.4
+    pefile	        2018.8.8	    2018.8.8
+    pip	            18.1	        18.1
+    pycairo	        1.18.0	        1.18.0
+    pymongo	        3.7.2	        3.7.2
+    pyparsing	    2.3.0	        2.3.0
+    python-dateutil	2.7.5	        2.7.5
+    requests	    2.21.0	        2.21.0
+    setuptools	    40.6.2	        40.6.3
+    six	            1.12.0	        1.12.0
+    urllib3	        1.24.1	        1.24.1
+    ```
 * Run the MainPage.py in MainDriver python package .
