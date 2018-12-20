@@ -24,7 +24,6 @@ class GraphReport:
                 expectedtimelocation = self.alljson[i]['location']
                 if expectedtime == value.split(' : ')[0].rstrip() and expectedtimelocation == value.split(' : ')[1].rstrip():
                     deleteData=self.alljson[i]
-
                     break
             if delete_report(deleteData):
                 model = Gtk.ListStore(str)

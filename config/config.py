@@ -1,5 +1,5 @@
-weatherappID=''
-geocodeApiID=''
+weatherappID='d057499719f262e76f0c912314e06e6e'
+geocodeApiID='AIzaSyCw02R1z57jddjJkY1S180zjySrry-o4KU'
 weatherURL='https://api.darksky.net/forecast/'
-mongodbURL=''
+mongodbURL='mongodb://weatherApp:password12@ds129484.mlab.com:29484/weather_app'
 geoCodeURL='https://maps.googleapis.com/maps/api/geocode/json'
