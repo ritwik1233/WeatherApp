@@ -7,7 +7,7 @@ from datetime import datetime
 
 class CurrentLocation():
 
-    def onSearchClick(self, button):
+    def on_search_click(self, button):
         # get the city object text view
         self.text = self.builder.get_object('locationEntry')
         # If location text is not empty

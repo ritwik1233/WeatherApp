@@ -3,10 +3,39 @@ from apiCalls.apicalls import getHistoricalWeatherForLocation
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
 from datetime import datetime
+from database.dbcalls import add_report
 
 
-class WeeklyReport():
-    def onHistoricalClick(self, button):
+class WeeklyReport:
+
+    def save_data(self, button):
+        humidity = []
+        pressure = []
+        temperatureHigh = []
+        temperatureLow = []
+        for key in range(len(self.alljsonDataValue)):
+            for key, value in self.alljsonDataValue[key].items():
+                if key == 'humidity':
+                    humidity.append(value)
+                if key == 'pressure':
+                    pressure.append(value)
+                if key == 'temperatureHigh':
+                    temperatureHigh.append(value)
+                if key == 'temperatureLow':
+                    temperatureLow.append(value)
+        allData = dict()
+        allData['date'] = self.alljsonDataValue[0]['time']
+        allData['location'] = self.city.get_text()
+        allData['humidity'] = humidity
+        allData['pressure'] = pressure
+        allData['temperatureHigh'] = temperatureHigh
+        allData['temperatureLow'] = temperatureLow
+        result = []
+        result.append(allData)
+        add_report(allData)
+        self.window.show_all()
+
+    def on_historical_data_click(self, button):
         # get the city object text view
         self.city = self.builder.get_object('cityID')
         if len(self.city.get_text()) > 0:
