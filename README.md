@@ -54,6 +54,7 @@ A Python Desktop Application where one can view daily and weekly weather reports
 
 ### Run Instructions
 #### Run on Pycharm
-* Open the project in python IDE
+* Download and install [Pycharm](https://www.jetbrains.com/pycharm/)
+* Open the project in pycharm
 * Install all the python dependencies
 * Run the MainPage.py in MainDriver python package .
