@@ -4,7 +4,7 @@
 
 A Python Desktop Application where one can view daily and weekly weather reports.
 
-## Prequisities
+## Project Dependencies
 
 ### Python libraries :-
 * [Python GTK+ 3](https://python-gtk-3-tutorial.readthedocs.io/en/latest/)
